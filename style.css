@@ -146,7 +146,7 @@ section {
 
 
 .header_img2 {
-    position:sticky;
+    position:relative;
     width: 1000px;
     height: 70px;
 
