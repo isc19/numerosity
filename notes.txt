@@ -1,0 +1,19 @@
+icons
+ <i class="ri-functions"></i>
+ <i class="ri-shapes-line"></i>
+ <i class="ri-shapes-fill"></i>
+  <i class="ri-puzzle-line"></i>
+      <i class="ri-pencil-ruler-line"></i>
+             
+Services:
+Bridging the Gap
+recommended for A Levels and beyond
+The jump from GCSE Maths to A Levels is a rocky one. The new mathematical notation is daunting and it seems 
+                            as if it is a whole new language. 
+
+
+
+Building Blocks
+Recommended for y7-10
+Focus on problem-solving thinking and mathematical presentation. We aim to increase confidence and spark passion 
+We offer a unique perspective into Mathematics. Having studied Mathematics at
