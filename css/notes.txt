@@ -1,0 +1,14 @@
+**// Home page//**
+
+<a href="https://www.flaticon.com/free-icons/flux" title="flux icons">Flux icons created by TravisAvery - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/golden-ratio" title="golden ratio icons">Golden ratio icons created by Skyclick - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/calculus" title="calculus icons">Calculus icons created by ICs Icons - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/topology" title="topology icons">Topology icons created by Nadiinko - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/topology" title="topology icons">Topology icons created by Nadiinko - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/group-theory" title="group theory icons">Group theory icons created by Freepik - Flaticon</a>
+
