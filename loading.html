@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerosity</title>
+
+    <link rel="shortcut icon" href="img/brain-2-line.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+</head>
+<body>
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <h1 class="home__name">Under Construction</h1>
+
+            <div class="home__perfil">
+                <div class="home__image">
+                    <img src="img/9482399.png" alt="graduation image" class="home__img">
+                    <div class="home__shadow"></div>
+                    <img src="img/curved-arrow.png" alt="" class="home__arrow">
+                    <img src="img/pi-mathematical-constant-symbol.png" alt="" class="home__pi">
+                    <img src="img/neural.png" alt="" class="home__neural">
+                    <img src="img/symbol.png" alt="" class="home__symbol">
+                    <img src="img/trigonometry.png" alt="" class="home__trig">
+                    <img src="img/black-hole.png" alt="" class="home__bh">
+                    <img src="img/angle.png" alt="" class="home__angle">
+                    <img src="img/comet.png" alt="" class="home__comet">
+                    <img src="img/golden-ratio.png" alt="" class="home__golden">
+                    <img src="img/space.png" alt="" class="home__space">
+                    <img src="img/geometry.png" alt="" class="home__geometry">
+                    <img src="img/topology.png" alt="" class="home__topology">
+            
+                    <div class="geometric-box"></div>
+                </div>
+
+                <!-- <div class="home__social">
+                    <div class="projects__link">
+                        <i class="ri-star-smile-line"></i>
+
+                    </div>
+
+                    <div class="projects__link">
+                        <i class="ri-star-smile-line"></i>
+
+                    </div>
+                </div> -->
+
+            </div>
+
+            <div class="home__info">
+                <h2 class="home__slogan"> We are working hard to get this page up and running. Sign up to receive updates and to be notified when this page launches</h2>
+                <p class="home__description">
+                    <strong>Subscribe</strong> with email 
+                </p>
+                
+                <div class="hero">
+                    <form class="hero__form" name="submit-to-google-sheet">
+                        <input type="email" name="email" required placeholder="Email Address" required>
+                        <label for="email" class="contact__label">Email Address</label>
+                        <button type="submit">
+                            <i class="ri-send-plane-line"></i> 
+                        </button>
+                    </form>
+
+                    <span id="msg"> </span>
+                </div>
+                    
+            </div>
+        
+        </div>
+ 
+    </section>
+
+        <!-- Home -->
+    <!-- <section class="home section" id="home">
+        <div class="home__container container grid">
+            <h1 class="home__name">Under Construction</h1>
+
+            <form action="" class="contact__form" id="contact-form">
+                <div class="contact__group">
+                    <div class="contact__box">
+                        <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                        <label for="email" class="contact__label">Email Address</label>
+                    </div>
+
+            </form>
+
+
+            <div class="home__info">
+                <p class="home__description">
+                    We are working hard to get this page up and running. Sign up to receive updates and to be notified when this page launches
+                </p>
+
+            </div>
+        </div>
+    </section> -->
+        
+
+       <!-- Email JS -->
+       <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+     
+
+
+       <!-- Main JS -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5Qu5tqqeiJsCl-8cAq2a4ZC3G0-W7VIZ8f6XysJIAz9xgCDASzOku-hMm3TlaWFPhog/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank You For Subscribing!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                    
+                }, 5000)
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
