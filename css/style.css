@@ -1469,13 +1469,16 @@ transition: background-color .3s;
     }
 
     
+    
     .testimonial {
-        height: fit-content;
+        height: min-content;
+    
     }
 
     .swiper-button-next,
     .swiper-button-prev {
         position: absolute;
+        bottom: 95%;
     }
 }
 
