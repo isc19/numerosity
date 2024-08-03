@@ -904,8 +904,6 @@ margin-bottom: 3rem;
     background-color: var(--container-color);
 }
 .testimonial__container {
-    margin-left: 20%;
-    margin-right: 20%;
     row-gap: 4rem;
    
 }
@@ -979,27 +977,36 @@ margin-bottom: 3rem;
 
 }
 
+.swiper-button-next {
+    width: 50px;
+    right: 5%;
+}
+.swiper-button-prev {
+    width: 50px;
+    left: 5%;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '';
+
+}
+
+
+
+
 .swiper-button-next,
 .swiper-button-prev {
-    top: initial;
-    bottom: 91%;
-    width: initial;
-    height: initial;
+    width: 50px;
+    height: 10%;
     background-color: 0 4px hsla(0, 2%, 13%, 0.1);
     padding: .25rem;
     font-size: 1.5rem;
     color: var(--first-color);
 }
 
-.swiper-button-next {
-    right: initial;
-    left: 53.5%;
-}
 
-.swiper-button-prev {
-    right: initial;
-    left: 46.5%;
-}
 
 
 
@@ -1475,23 +1482,7 @@ transition: background-color .3s;
     
     }
 
-    .swiper-button-next,
-    .swiper-button-prev {
-        position: absolute;
-        bottom: 95%;
-    }
-
-    .swiper-button-next {
-    right: initial;
-    left: 55.5%;
-}
-
-    .swiper-button-prev {
-        right: initial;
-        left: 44.5%;
-    }
-
-}
+   
 
 /* medium screens */
 @media screen and (min-width:576px) {
