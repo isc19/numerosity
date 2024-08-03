@@ -982,7 +982,7 @@ margin-bottom: 3rem;
 .swiper-button-next,
 .swiper-button-prev {
     top: initial;
-    bottom: 95%;
+    bottom: 91%;
     width: initial;
     height: initial;
     background-color: 0 4px hsla(0, 2%, 13%, 0.1);
@@ -1445,7 +1445,7 @@ transition: background-color .3s;
 /* Screen sizes for different devices */
 
 /* Small screen */
-@media screen and (max-width:340px) {
+@media screen and (min-width:320px) {
     .container {
         margin-inline: 1rem;
     }
@@ -1475,7 +1475,7 @@ transition: background-color .3s;
 
     .swiper-button-next,
     .swiper-button-prev {
-        position: relative;
+        position: absolute;
     }
 }
 
