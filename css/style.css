@@ -992,12 +992,12 @@ margin-bottom: 3rem;
 }
 
 .swiper-button-next {
-    right: inherit;
+    right: initial;
     left: 53.5%;
 }
 
 .swiper-button-prev {
-    right: inherit;
+    right: initial;
     left: 46.5%;
 }
 
@@ -1480,6 +1480,17 @@ transition: background-color .3s;
         position: absolute;
         bottom: 95%;
     }
+
+    .swiper-button-next {
+    right: initial;
+    left: 55.5%;
+}
+
+    .swiper-button-prev {
+        right: initial;
+        left: 44.5%;
+    }
+
 }
 
 /* medium screens */
