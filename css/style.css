@@ -982,7 +982,7 @@ margin-bottom: 3rem;
 .swiper-button-next,
 .swiper-button-prev {
     top: initial;
-    bottom: 90%;
+    bottom: 95%;
     width: initial;
     height: initial;
     background-color: 0 4px hsla(0, 2%, 13%, 0.1);
@@ -992,12 +992,12 @@ margin-bottom: 3rem;
 }
 
 .swiper-button-next {
-    right: initial;
+    right: inherit;
     left: 53.5%;
 }
 
 .swiper-button-prev {
-    right: initial;
+    right: inherit;
     left: 46.5%;
 }
 
@@ -1466,6 +1466,16 @@ transition: background-color .3s;
 
     .contact__data .section__title-2 {
         transform: translateX(0);
+    }
+
+    
+    .testimonial {
+        height: fit-content;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: relative;
     }
 }
 
