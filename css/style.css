@@ -903,15 +903,17 @@ margin-bottom: 3rem;
 .testimonial {
     background-color: var(--container-color);
 }
-.testimonial__container {
-    row-gap: 4rem;
-   
-}
 
 .testimonial__card {
     padding-left: 15%;
     padding-right: 15%;
 }
+
+.testimonial__container {
+    row-gap: 4rem;
+ 
+}
+
 
 .testimonial__quote {
     display: inline-flex;
